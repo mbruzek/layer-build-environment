@@ -1,0 +1,13 @@
+name: build-environment
+summary: This is a Juju Charm that can build binary files.
+maintainer: Matthew Bruzek <Matthew.Bruzek@canonical.com>
+description: |
+  Deploy this charm to build a repsoitory in the cloud
+tags:
+  - build
+  - tools
+  - misc
+subordinate: false
+# peers:
+#   peer-relation:
+#     interface: interface-name

@@ -1,0 +1,13 @@
+options:
+  build-repo:
+    type: string
+    default: ""
+    description: "The url of the repository to build."
+  install-repo:
+    type: string
+    default: ""
+    description: "The repository of install instructions."
+  output-files:
+    type: string
+    default: ""
+    description: "A list of output files to copy from the build environment."
